@@ -44,7 +44,7 @@ Roku device
 
 
 
-Don't add analytics file under source folder.
+Don't add analytics folder (analytics.xml, analytics.brs & config.brs files) under source folder.
 
 Please refer the demo application for more details.
 
