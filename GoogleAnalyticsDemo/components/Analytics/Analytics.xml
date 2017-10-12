@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="Analytics" extends="Task">
+<interface>
+	<field id="category" type="string" />
+	<field id="action" type="string" />
+	<field id="label" type="string" />
+	<field id="value" type="string" />
+	<field id="screen" type="string" />
+	
+	<field id="traceScreen" alwaysNotify="true" type="bool" value="false" onChange="TraceScreen" />
+	<field id="trackEvent" alwaysNotify="true" type="bool" value="false" onChange="TrackEvent"  />
+</interface>
+	<script type="text/brightscript" uri="pkg:/components/Analytics/Analytics.brs" />
+	<script type="text/brightscript" uri="pkg:/components/Analytics/Config.brs" />
+</component>
